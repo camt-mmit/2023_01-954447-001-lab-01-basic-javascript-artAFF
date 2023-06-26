@@ -17,28 +17,3 @@ rl.question('Input score: ' , (score) => {
 
 // node lab1/ex1.js 
 
-/*
-
-import { createInterface } from "node:readline";
-const rl = createInterface(process.stdin, process.stdout);
-
-    rl.question('Input score: ' , (score) => {
-        console.log(`Your grade is  ${grade}.`);
-            if(score >= 80) {
-                grade = 'A'
-                    if (score >= 70) {
-                        grade = 'B'
-                    }
-                    else if (score >= 60) {
-                        grade = 'C'
-                    }
-                    else if (score >= 50) {
-                        grade = 'D'
-                    }
-                    else if (score < 50) {
-                        grade = 'F'
-                    }
-            }
-    rl.close();
-    })
- () ? */ 
